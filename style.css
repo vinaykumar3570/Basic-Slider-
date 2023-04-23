@@ -1,0 +1,53 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .slide-container {
+     position: relative;
+     width: 100%;
+     background: #000;
+     /* height: 80vh; */
+ }
+
+ .slide img {
+     width: 100%;
+     height: 80vh;
+     /* opacity: .8; */
+ }
+
+ .arrow {
+     cursor: pointer;
+     position: absolute;
+     top: 45%;
+     color: black;
+     background: rgba(255, 255, 255, 0.712);
+     padding: 8px 18px;
+     border-radius: 50%;
+     font-size: 25px;
+     font-weight: bold;
+ }
+
+ .next {
+     right: 10px;
+ }
+
+ .prev {
+     left: 10px;
+ }
+ .caption{
+     color: aliceblue;
+     font-size: 30px;
+     font-weight: bold;
+     position: absolute;
+     bottom: 50px;
+     text-align: center;
+     width: 100%;
+     padding: 15px 0;
+     /* background-color: rgba(0, 0, 0, 0.616); */
+     
+ }
+ .slide{
+     display: none;
+ }
