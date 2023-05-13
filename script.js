@@ -28,3 +28,8 @@ function slideshow(num){
 
     slides[num].style.display = "block";
 }
+
+const nextBtn = document.querySelector(".next");
+setInterval(() => {
+    nextBtn.click();
+}, 4000);

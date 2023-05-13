@@ -2,6 +2,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     user-select: none;
  }
 
  .slide-container {
@@ -15,6 +16,7 @@
      width: 100%;
      height: 80vh;
      /* opacity: .8; */
+     transition: all 2s;
  }
 
  .arrow {
@@ -46,7 +48,7 @@
      width: 100%;
      padding: 15px 0;
      /* background-color: rgba(0, 0, 0, 0.616); */
-     
+
  }
  .slide{
      display: none;
